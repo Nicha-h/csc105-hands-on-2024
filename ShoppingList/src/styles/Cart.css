@@ -1,0 +1,120 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f7f7f7;
+  font-family: Arial, sans-serif;
+}
+h1{
+  font-size: 50px;
+}
+.container {
+  
+  text-align: center;
+  width: 100%;
+  max-width: 700px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.Cart {
+  padding: 100px;
+  border-radius: 10px;
+  background-color: #fff; 
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);  
+}
+
+/* Input field */
+input {
+  padding: 8px;
+  margin-right: 12px;
+  width: 70%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+
+/* Buttons */
+button {
+  margin-top: 20px;
+  padding: 10px 25px;
+  cursor: pointer;
+  background-color: #3dcb57;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2dad65;
+}
+
+.remove{
+  font-weight: bold;
+  padding: 10px 25px;
+  cursor: pointer;
+  background-color: #cb3d3d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.remove:hover{
+  background-color: #a22929;
+}
+
+.edit{
+  font-weight: bold;
+  padding: 10px 25px;
+  margin: 10px;
+  cursor: pointer;
+  background-color: #f9c844;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.edit:hover{
+  background-color: #db922c;
+}
+
+/* List container */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+/* List item styles */
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 8px 0;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+
+li span {
+  cursor: pointer;
+}
+
+li span.bought {
+  text-decoration: line-through;
+  color: green;
+}
+
+li:hover {
+  background-color: #f4f4f4; /* Optional: Slight hover effect for list items */
+}
