@@ -1,0 +1,36 @@
+nav {
+  background-color: #fff1d5;
+  padding: 1.5rem;
+  border-color:#34250f;
+
+}
+
+nav a {
+  color: #4a3925;
+  text-decoration: none;
+  margin-right: 1rem;
+  font-weight: 800;
+  font-family: monospace;
+  font-size: larger;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav a.active {
+  font-weight: 1000;
+  color: #6361fb;
+}
+
+.error-message {
+  color: red;
+  font-family: monospace;
+  margin-top: 2px;
+  margin-left: 2px;
+}
+@import 'tailwindcss';
+
+@tailwind utilities;
+/* @tailwind components;
+@tailwind base; */
